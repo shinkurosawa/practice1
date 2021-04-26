@@ -1,0 +1,338 @@
+@charset "UTF-8";
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #fff;
+  color: #13191b;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+#top {
+  background-size: cover;
+  background-image: url("https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_13-0x0.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  min-height: 95vh;
+  position: relative;
+}
+
+#top .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#top .header a {
+  color: white;
+  text-decoration: none;
+}
+
+#top .header .header-right {
+  margin: 0 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#top .header .header-right ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#top .header .header-right ul li {
+  padding: 0 20px;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+#top .header .header-right ul li .list-border:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+#top .arrow {
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+}
+
+#concept {
+  background-color: #f6f6f6;
+  padding: 90px 0;
+}
+
+#concept h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#concept .concept-text {
+  margin: 0 auto;
+  max-width: 370px;
+  font-size: 1.2rem;
+}
+
+#concept .concept-text .service-title {
+  text-align: center;
+}
+
+#concept .concept-text .service-title p {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+#concept .concept-text .service-title h1 {
+  font-size: 1.8rem;
+}
+
+#prodact .prodact-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+
+#prodact .prodact-wrapper .prodact-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#prodact .prodact-wrapper .prodact-top h4 {
+  font-family: "Gill Sans Std Book", sans-serif;
+  font-weight: normal;
+  line-height: 1px;
+  letter-spacing: .1rem;
+}
+
+#prodact .prodact-wrapper .prodact-top .prodact-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+#prodact .prodact-wrapper .prodact-top .prodact-right a {
+  color: #13191b;
+  border: solid 1px #13191b;
+  padding: 12px 54px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#prodact .prodact-wrapper .prodact-top .prodact-right a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+#prodact .prodact-wrapper .contents-item h4 {
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 20px 0 50px 0;
+}
+
+#prodact .prodact-wrapper .contents-item img {
+  width: 100%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#prodact .prodact-wrapper .contents-item img:hover {
+  opacity: 0.8;
+}
+
+#prodact .prodact-wrapper .contents-item a {
+  text-decoration: none;
+  color: #13191b;
+}
+
+#news {
+  background-color: #f6f6f6;
+}
+
+#news .news-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+
+#news .news-wrapper .news-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#news .news-wrapper .news-top h4 {
+  font-family: "Gill Sans Std Book", sans-serif;
+  font-weight: normal;
+  line-height: 1px;
+  letter-spacing: .1rem;
+}
+
+#news .news-wrapper .news-top .news-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+#news .news-wrapper .news-top .news-right a {
+  color: #13191b;
+  border: solid 1px #13191b;
+  padding: 12px 54px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#news .news-wrapper .news-top .news-right a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+#news .news-wrapper img {
+  width: 100%;
+}
+
+#news .news-item {
+  text-decoration: none;
+}
+
+#news .news-item .row {
+  margin-top: 50px;
+}
+
+#news .news-item .row:hover {
+  opacity: .6;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#news .news-item .row h5 {
+  color: #13191b;
+}
+
+#news .news-item .row p {
+  color: #656c6e;
+}
+
+#share {
+  padding: 30px;
+  text-align: center;
+}
+
+#share .btn {
+  width: 162px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 10px;
+}
+
+#share .btn.facebook {
+  color: #4871a9;
+  border: 1px solid #4871a9;
+  border-radius: 0;
+}
+
+#share .btn.facebook:hover {
+  background-color: #4871a9;
+  color: white;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#share .btn.twitter {
+  color: #70bdd3;
+  border: 1px solid #70bdd3;
+  border-radius: 0;
+}
+
+#share .btn.twitter:hover {
+  background-color: #70bdd3;
+  color: white;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#share .btn.hatena {
+  color: #2f9bcd;
+  border: 1px solid #2f9bcd;
+  border-radius: 0;
+}
+
+#share .btn.hatena:hover {
+  background-color: #2f9bcd;
+  color: white;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#page-link {
+  background-color: #939899;
+}
+
+#page-link .link-wrapper {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#page-link .link-wrapper a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#page-link .link-wrapper a:hover {
+  color: #ededed;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#footer {
+  padding: 60px 0;
+  background-color: #656c6e;
+  text-align: center;
+}
+
+#footer p {
+  margin: 0;
+  color: #f6f6f6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
